@@ -1,0 +1,19 @@
+#grid {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+}
+
+.cell {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border: 1px dotted black;
+}
+
+.cell.alive {
+    background-color: black;
+}
